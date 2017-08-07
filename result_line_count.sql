@@ -1,4 +1,5 @@
 --result line
+--test
 
 with
     SQ_MANY_DIM_FCT_INAC_SRVC as(

@@ -66,8 +66,7 @@ with
                 EFFECTIVE_DATE,
                 EXPIRATION_DATE
             from
-                (
-                select /*+ use_hash(fis disp) leading(disp) parallel(disp,4) parallel(fis,4)*/
+                (select /*+ use_hash(fis disp) leading(disp) parallel(disp,4) parallel(fis,4)*/
                     fis.ban_key,
                     fis.SUBS_KEY,
                     fis.MARKET_KEY,

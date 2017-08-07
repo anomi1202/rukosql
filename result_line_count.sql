@@ -1,5 +1,4 @@
 --result line
---test
 
 with
     SQ_MANY_DIM_FCT_INAC_SRVC as(
@@ -324,7 +323,7 @@ with
             sq_dim.IPTV_ACTIVATION_DATE,
             sq_dim.FTTB_CHANNEL_KEY,
             sq_dim.IPTV_CHANNEL_KEY,
-            aggtrans.DATE_KEY,
+            sq_dim.DATE_KEY,
             aggtrans.LAST_FTTB_SERVICE_KEY,
             aggtrans.LAST_IPTV_SERVICE_KEY,
             aggtrans.FTTB_SERVICE_CONNECT_IND,
